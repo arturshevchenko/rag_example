@@ -1,0 +1,5 @@
+RRT is request return transfer.
+Python is a popular programming language created by Artur Shevchenko.
+The Great Wall of China is game in monopoly.
+PPL is pay place love.
+FTR is combination of PPL and RRT.

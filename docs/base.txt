@@ -1,0 +1,44 @@
+User Story: User Login
+Title: User Login Functionality
+
+As a Registered User I want to Securely log into my account So that
+I can access personalized features, manage my account, and utilize the application's services.
+
+Acceptance Criteria:
+Login Page Accessibility:
+Given that I am on the application's homepage,
+When I navigate to the login page,
+Then I should see input fields for Username/Email and Password, along with a "Log In" button.
+
+Successful Login:
+Given that I enter valid Username/Email and Password,
+When I click the "Log In" button,
+Then I should be redirected to my dashboard/homepage,
+And see a welcome message, e.g., "Welcome back, [User]!"
+
+Invalid Credentials Handling:
+Given that I enter an incorrect Username/Email or Password,
+When I attempt to log in,
+Then I should receive an error message stating "Invalid username or password."
+
+Password Masking and Visibility Toggle:
+Given that I am entering my password,
+When I type in the Password field,
+Then my password should be masked (e.g., shown as ••••••),
+And there should be an option to toggle password visibility.
+
+"Remember Me" Feature:
+Given that I want to stay logged in on my device,
+When I select the "Remember Me" checkbox,
+Then my login session should persist for a specified duration without requiring me to log in again.
+
+Forgot Password Functionality:
+Given that I have forgotten my password,
+When I click on the "Forgot Password?" link,
+Then I should be prompted to enter my Email Address to receive password reset instructions.
+
+Account Lockout After Multiple Failed Attempts:
+Given that I have entered incorrect login credentials multiple times (e.g., 5 attempts),
+When I exceed the maximum number of allowed login attempts,
+Then my account should be temporarily locked,
+And I should receive a notification about the lockout duration and instructions to unlock.
